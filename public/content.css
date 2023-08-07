@@ -1,0 +1,29 @@
+.welcome-text{
+    color: #FF10F0;
+}
+
+.home-btn{
+    outline: #FF10F0 !important;
+    color: #FF10F0 !important;
+}
+
+
+.row-welcome{
+    height: 100%;
+}
+.text-content{
+    height: 200px;
+}
+
+.form-box{
+    background-color:#FF10F0;
+    backdrop-filter:blur(30px);
+    width: 60%;
+    border-radius: 20px;
+    border: 2px solid white;
+
+}
+
+.form-label{
+    font-weight: bold;
+}

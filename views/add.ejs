@@ -1,0 +1,32 @@
+<%- include("partials/header.ejs") %>
+
+
+
+
+
+
+    <div class="container-fluid welcome">
+        <div class="row row-welcome">
+            <div class="col d-flex flex-column justify-content-center align-items-center">
+                <div class="form-box px-5 py-4 ">
+                    <form action="/addDiary" method="post">
+                        <label class="form-label" for="titel">Title</label>
+                        <input type="text" name="titel" placeholder="Titel" class="form-control mb-3">
+                        <label class="form-label" for="content">Content</label>
+                        <textarea name="content" placeholder="Content" cols="30" rows="10" class="form-control mb-3 text-content feedback-input"></textarea>
+                            <div class="col d-flex justify-content-end">
+                                <button type="submit" formaction="/deleteDiary" class="btn btn-dark add-btn me-4">Delete</button>
+                                <button type="submit" class="btn btn-dark add-btn">Add</button>
+                            </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+    <%- include("partials/footer.ejs") %>

@@ -13,12 +13,17 @@ app.get("/", (req, res) => {
     res.render("index.ejs");
 });
 
-app.get("/home", (req, res) => {
-    res.render("index.ejs");
+
+app.get("/add", (req, res) => {
+    res.render("add.ejs");
 });
 
-app.get("/see", (req, res) => {
-    res.render("see.ejs");
+app.post("/deleteDiary", (req, res) =>{
+    res.render("index.ejs")
+});
+
+app.post("/addDiary", (req, res) =>{
+    res.render("see.ejs")
 });
 
 app.listen(port, () => {

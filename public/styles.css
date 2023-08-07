@@ -10,18 +10,6 @@
     height: 85vh;
 }
 
-.welcome-text{
-    color: #FF10F0;
-}
-
-.btn{
-    outline: #FF10F0 !important;
-    color: #FF10F0 !important;
-}
-
-.row-welcome{
-    height: 100%;
-}
 
 footer ul li{
     list-style: none;
